@@ -76,10 +76,3 @@ Through this project, I aim to strengthen my understanding of:
 * Sequence models (LSTM)
 * Model evaluation and experimentation
 
-## Author
-
-**Aditi Kansal**
-
-B.Tech CSE | Machine Learning & Backend Development Enthusiast
-
-GitHub: https://github.com/aditikansal01
