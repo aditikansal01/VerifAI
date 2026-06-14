@@ -1,42 +1,85 @@
-# Fake-News-Detection
+# VerifAI: Fake News Detection using BERT and LSTM
 
-2 different techniques are used for training the models on the given data. The code is self explanable.
-Load the datasets and train the model.
+## Overview
 
-## BERT 
+VerifAI is an NLP-based fake news detection system that explores deep learning and transformer-based approaches for classifying news articles as **Real** or **Fake**. The project compares multiple text classification techniques and aims to build interpretable and reliable misinformation detection systems.
 
-It uses it's own built in functions for easyness.
+## Features
 
-#### Training Model. 
+* Fake news classification using deep learning models
+* Comparative study of BERT and LSTM architectures
+* Text preprocessing and tokenization pipelines
+* Model evaluation using standard classification metrics
+* Extensible framework for explainability and deployment
 
-![Screenshot 2023-06-04 131223](https://github.com/Haseeeb21/Fake-News-Detection/assets/91841622/0a62315b-6c53-4a4b-90c8-996acc3df6d8)
+## Tech Stack
 
-![Screenshot 2023-06-04 123837](https://github.com/Haseeeb21/Fake-News-Detection/assets/91841622/6b92658b-6156-4cab-8552-26fcd06afb75)
+* Python
+* NumPy
+* Pandas
+* Scikit-learn
+* TensorFlow / Keras
+* Hugging Face Transformers
+* Jupyter Notebook
 
-#### Evaluating Model
+## Models Implemented
 
-![Screenshot 2023-06-04 131249](https://github.com/Haseeeb21/Fake-News-Detection/assets/91841622/c466494f-eff6-487a-ac68-b889ec01dd80)
+### 1. BERT-Based Classifier
 
+* Transformer-based contextual embeddings
+* Fine-tuned for binary fake news classification
+* Designed for high semantic understanding of news content
 
+### 2. LSTM-Based Classifier
 
-#### Testing on User-Input data
+* Sequential deep learning model for text classification
+* Utilizes token embeddings and recurrent neural networks
+* Provides a baseline for comparison with transformer models
 
-![Screenshot 2023-06-04 131305](https://github.com/Haseeeb21/Fake-News-Detection/assets/91841622/f0b57ef2-39a5-4043-be30-311ae2493313)
+## Project Structure
 
+```text
+VerifAI/
+├── bert_fake_news_classifier.ipynb
+├── lstm_fake_news_classifier.ipynb
+├── dataset/
+├── results/
+├── requirements.txt
+└── README.md
+```
 
+## Evaluation Metrics
 
-## LSTM
+The models are evaluated using:
 
-Different parameters give different results.
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
 
-#### Training Model
+## Future Enhancements
 
-![Screenshot 2023-06-04 075142](https://github.com/Haseeeb21/Fake-News-Detection/assets/91841622/6ac988a3-a56a-40eb-ac95-116cf166a86c)
+* Streamlit-based interactive dashboard
+* Confidence score generation
+* Explainable AI and attention visualization
+* Real-time news credibility assessment
+* Multi-modal fake news detection using text and images
 
-![Screenshot 2023-06-03 212240](https://github.com/Haseeeb21/Fake-News-Detection/assets/91841622/fd64599d-9370-483f-8f67-e598d0fba2c2)
+## Learning Outcomes
 
+Through this project, I aim to strengthen my understanding of:
 
-#### Testing on User-Input data
+* Natural Language Processing (NLP)
+* Deep Learning for text classification
+* Transformer architectures (BERT)
+* Sequence models (LSTM)
+* Model evaluation and experimentation
 
-![Screenshot 2023-06-03 212408](https://github.com/Haseeeb21/Fake-News-Detection/assets/91841622/d168c32a-9944-4360-aac8-943cbad5cf96)
+## Author
 
+**Aditi Kansal**
+
+B.Tech CSE | Machine Learning & Backend Development Enthusiast
+
+GitHub: https://github.com/aditikansal01
